@@ -14,8 +14,10 @@ for (var i=0; i < items.length; i++){
 
 const form = document.getElementById('course-form');
 
+//trabajar el submit en el formulario y no en el boton
 form.addEventListener('submit', function(e){
 
+    //recordar este metodo, para prevenir el envio
     e.preventDefault();
 
     let title = document.getElementById('title-form').value;
