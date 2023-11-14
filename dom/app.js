@@ -6,10 +6,10 @@ description.innerHTML = "Listado de cursos"
 
 //const items = document.getElementsByClassName("list-group-item");
 
-const items = document.getElementsByTagName("li")
+const items = document.querySelectorAll("li:nth-child(even)");
 for (var i=0; i < items.length; i++){
-    if (i % 2 == 0){
         let element = items[i];
         element.style.background = '#f2f2f2'
-    }
 }
+
+const element = document.querySelector('div.row > ul.list-group > li');
