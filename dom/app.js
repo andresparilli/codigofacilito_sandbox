@@ -12,4 +12,5 @@ for (var i=0; i < items.length; i++){
         element.style.background = '#f2f2f2'
 }
 
-const element = document.querySelector('div.row > ul.list-group > li');
+const form = document.getElementById('course-form');
+console.log(form);
